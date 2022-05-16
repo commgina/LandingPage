@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Amarante&family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.hd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.header-image{
+    height: 72px;
+}
+
+.header-nav{
+    display: flex;
+    gap: 32px;
+}
+
+.item-header{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+}
+
+.content{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7
+}
+
+.main-content{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.main-content-text{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main-content-title{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    color: #FFF2E7;
+}
+
+.main-content-subtext{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    color: #FFF2E7;
+}
+
+.main-content-button{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    background: #ECD6C4;
+    width: 185px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+
+}
+
+.main-content-button:hover{
+    background: #a79383;
+}
+
+
+.secondary-content{
+    display:flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.secondary-content-title{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+
+.secondary-content-p{
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #ECD6C4;
+}
+
+.foot{
+    padding:20px;
+    border-top: 0.4px solid #FFF2E7;
+    text-align: center;
+    
+}
+
+.foot-text{
+    font-family: 'Amarante', cursive;
+    font-size : 40px;
+    color:  #FFF2E7;
+    
+}
